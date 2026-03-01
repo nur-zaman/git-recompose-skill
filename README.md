@@ -6,6 +6,30 @@ A Claude Code skill plugin for safely recomposing messy git commits before openi
 
 When your feature branch has WIP commits, mixed concerns, or unclear messages, this skill helps Claude reorganize the history into clean, logical commits — **without ever touching your original branch** until you explicitly approve.
 
+## Installation
+
+### Via Claude Code plugin marketplace
+
+1. Add the marketplace:
+
+```
+/plugin marketplace add nur-zaman/git-recompose-skill
+```
+
+2. Install the plugin:
+
+```
+/plugin install git-recompose@git-recompose-skill
+```
+
+### Manual
+
+Copy `skills/recomposing-commits/` into your `~/.claude/skills/` directory:
+
+```bash
+cp -r skills/recomposing-commits ~/.claude/skills/
+```
+
 ## How It Works
 
 1. **Safety check** — refuses to run on `main`, `master`, `dev`, or any protected branch
@@ -25,21 +49,6 @@ Claude will use this skill when you say things like:
 - "make commits logical"
 - "my commits are messy"
 
-## Installation
-
-### Via Claude Code plugin marketplace
-
-```bash
-claude plugin install git-recompose
-```
-
-### Manual
-
-Copy `skills/recomposing-commits/` into your `~/.claude/skills/` directory:
-
-```bash
-cp -r skills/recomposing-commits ~/.claude/skills/
-```
 
 ## Safety Guarantees
 
