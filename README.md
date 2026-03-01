@@ -73,6 +73,10 @@ Claude will use this skill when you say things like:
 - Skip the review gate
 - Use relative worktree paths (breaks with branch names containing slashes)
 
+## Acknowledgements
+
+Inspired by [GitLens's "Recompose Commits" feature](https://www.gitkraken.com/gitlens).
+
 ## License
 
 MIT
