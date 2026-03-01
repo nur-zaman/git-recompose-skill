@@ -8,6 +8,14 @@ When your feature branch has WIP commits, mixed concerns, or unclear messages, t
 
 ## Installation
 
+### Universal (works with any coding agent)
+
+```bash
+npx skills add nur-zaman/git-recompose-skill
+```
+
+Compatible with: Amp, Cline, Codex, Cursor, Gemini CLI, GitHub Copilot, Kimi Code CLI, OpenCode, and more.
+
 ### Via Claude Code plugin marketplace
 
 1. Add the marketplace:
