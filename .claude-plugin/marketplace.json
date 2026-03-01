@@ -1,0 +1,16 @@
+{
+  "name": "git-recompose-skill",
+  "owner": {
+    "name": "nur-zaman"
+  },
+  "metadata": {
+    "description": "Safely recompose messy git commits before a PR"
+  },
+  "plugins": [
+    {
+      "name": "git-recompose",
+      "source": "./",
+      "description": "Safely recompose messy git commits before a PR — isolates work in a worktree, enforces a review gate, and never touches the original branch until you approve."
+    }
+  ]
+}
