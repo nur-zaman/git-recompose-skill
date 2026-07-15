@@ -1,6 +1,6 @@
 {
   "name": "git-recompose",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Safely recompose messy git commits before a PR — isolates work in a worktree, enforces a review gate, and never touches the original branch until you approve.",
   "author": {
     "name": "nur-zaman"
